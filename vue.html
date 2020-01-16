@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Deng-ColorUI-Web</title>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <link href="./webgradients.css" rel="stylesheet">
+</head>
+<body>
+<div id="app">
+    <div class="wrapper">
+        <div v-for="(item,index) in color_data">
+<!--            <div class="box" :class="item">{{index + 1}}{{item}}</div>-->
+            <div class="box" :class="item"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue.js!',
+            color_data:[
+                    'magic_lake',
+                    'night_fade',
+                    'spring_warmth',
+                    'juicy_peach',
+                    'young_passion',
+                    'lady_lips',
+                    'sunny_morning',
+                    'rainy_ashville',
+                    'frozen_dreams',
+                    'winter_neva',
+                    //  011
+                    'dusty_grass',
+                    'tempting_azure',
+                    'heavy_rain',
+                    'amy_crisp',
+                    'mean_fruit',
+                    'deep_blue',
+                    'ripe_malinka',
+                    'cloudy_knoxville',
+                    'malibu_beach',
+                    'new_life',
+                    //  021
+                    'true_sunset',
+                    'morpheus_den',
+                    'rare_wind',
+                    'near_moon',
+                    'wild_apple',
+                    'saint_petersburg',
+                    'arielles_smile',
+                    'plum_plate',
+                    'everlasting_sky',
+                    'happy_fisher',
+                //  031
+                    'blessing',
+                    'sharpeye_eagle',
+                    'ladoga_bottom',
+                    'lemon_gate',
+                    'itmeo_branding',
+                    'zeus_miracle',
+                    'old_hat',
+                    'star_wine',
+                    'deep_blue',
+                    'coup_de_grace',
+                //  041
+                    'happy_acid',
+                    'awesome_pine',
+                    'new_york',
+                    'shy_rainbow',
+                    'loon_crest',
+                    'mixed_hopes',
+                    'fly_high',
+                    'strong_bliss',
+                    'fresh_milk',
+                    'snow_again',
+                //  051
+                    'february_ink',
+                    'kind_steel',
+                    'soft_grass',
+                    'grown_early',
+                    'sharp_blues',
+                    'shady_water',
+                    'dirty_beauty',
+                    'great_whale',
+                    'teen_notebook',
+                    'polite_rumors',
+                //  061
+                    'sweet_period',
+                    'wide_matrix',
+                    'soft_cherish',
+                    'red_salvation',
+                    'burning_spring',
+                    'night_party',
+                    'sky_glider',
+                    'heaven_peach',
+                    'purple_division',
+                    'aqua_splash',
+                //  071
+                    'above_clouds',
+                    'spiky_naga',
+                    'love_kiss',
+                    'sharp_glass',
+                    'clean_mirror',
+                    'premium_dark',
+                    'cold_evening',
+                    'cochiti_lake',
+                    'summer_games',
+                    'passionate_bed',
+                //  081
+                    'mountain_rock',
+                    'desert_hump',
+                    'jungle_day',
+                    'phoenix_start',
+                    'october_silence',
+                    'faraway_river',
+                    'alchemist_lab',
+                    'over_sun',
+                    'premium_white',
+                    'mars_party',
+                //  091
+                    'eternal_constance',
+                    'japan_blush',
+                    'smiling_rain',
+                    'cloudy_apple',
+                    'big_mango',
+                    'healthy_water',
+                    'amour_amour',
+                    'risky_concrete',
+                    'strong_stick',
+                    'vicious_stance',
+                //  101
+                    'palo_alto',
+                    'happy_memories',
+                    'midnight_bloom',
+                    'crystalline',
+                    'raccoon_back',
+                    'party_bliss',
+                    'confident_cloud',
+                    'le_cocktail',
+                    'river_city',
+                    'frozen_berry',
+                //  111
+                    'elegance',
+                    'child_care',
+                    'flying_lemon',
+                    'new_retrowave',
+                    'hidden_jaguar',
+                    'above_the_sky',
+                    'nega',
+                    'dense_water',
+                    'chemic_aqua',
+                    'seashore',
+                //  121
+                    'marble_wall',
+                    'cheerful_caramel',
+                    'night_sky',
+                    'magic_lake',
+                    'young_grass',
+                    'colorful_peach',
+                    'gentle_care',
+                    'plum_bath',
+                    'happy_unicorn',
+                    'full_metal',
+                //  131
+                    'african_field',
+                    'solid_stone',
+                    'orange_juice',
+                    'glass_water',
+                    'slick_carbon',
+                    'north_miracle',
+                    'fruit_blend',
+                    'millennium_pine',
+                    'high_flight',
+                    'mole_hall',
+                //  141
+                    'earl_gray',
+                    'space_shift',
+                    'forest_inei',
+                    'royal_garden',
+                    'rich_metal',
+                    'juicy_cake',
+                    'smart_indigo',
+                    'sand_strike',
+                    'norse_beauty',
+                    'aqua_guidance',
+                //  151
+                    'sun_veggie',
+                    'sea_lord',
+                    'black_sea',
+                    'grass_shampoo',
+                    'landing_aircraft',
+                    'witch_dance',
+                    'sleepless_night',
+                    'angel_care',
+                    'crystal_river',
+                    'soft_lipstick',
+                //  161
+                    'salt_mountain',
+                    'perfect_white',
+                    'fresh_oasis',
+                    'strict_november',
+                    'morning_salad',
+                    'deep_relief',
+                    'sea_strike',
+                    'night_call',
+                    'supreme_sky',
+                    'light_blue',
+                //  171
+                    'mind_crawl',
+                    'lily_meadow',
+                    'sugar_lollipop',
+                    'sweet_dessert',
+                    'magic_ray',
+                    'teen_party',
+                    'frozen_heat',
+                    'gagarin_view',
+                    'fabled_sunset',
+                    'perfect_blue',
+
+                ]
+        }
+    })
+</script>
+</body>
+
+<style type="text/css">
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 500px;
+    }
+    .box{
+        margin: 5px;
+        width: 150px;
+        height: 150px;
+    }
+</style>
+</html>
