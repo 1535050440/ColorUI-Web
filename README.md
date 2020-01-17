@@ -12,10 +12,3 @@
 
 <img src="http://img.guangjiaoge.com/uploads/20200117/33ff96baafafa99a46a2ee08f9387a17.png" alt="">
 
---
-
-<img src="http://img.guangjiaoge.com/uploads/20200117/33ff96baafafa99a46a2ee08f9387a17.png" width = "1000" alt="">
-
---
-
- ![image](http://img.guangjiaoge.com/uploads/20200117/33ff96baafafa99a46a2ee08f9387a17.png)
